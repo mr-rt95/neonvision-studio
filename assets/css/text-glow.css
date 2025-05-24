@@ -1,0 +1,190 @@
+/* ==================================================
+  Neon Text Glow Effects
+  Author: mr-rt95
+  Description: Utility classes for glowing neon text
+   ================================================== */
+
+/* ========== Base Glow Text Colors ========== */
+
+.text-glow-neon-green {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-neon-green),
+    0 0 10px var(--glow-neon-green),
+    0 0 20px var(--glow-neon-green);
+}
+
+.text-glow-neon-fuchsia {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-neon-fuchsia),
+    0 0 10px var(--glow-neon-fuchsia),
+    0 0 20px var(--glow-neon-fuchsia);
+}
+
+.text-glow-neon-pink {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-neon-pink),
+    0 0 10px var(--glow-neon-pink),
+    0 0 20px var(--glow-neon-pink);
+}
+
+.text-glow-neon-cyan {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-neon-cyan),
+    0 0 10px var(--glow-neon-cyan),
+    0 0 20px var(--glow-neon-cyan);
+}
+
+.text-glow-neon-blue {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-neon-blue),
+    0 0 10px var(--glow-neon-blue),
+    0 0 20px var(--glow-neon-blue);
+}
+
+.text-glow-neon-purple {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-neon-purple),
+    0 0 10px var(--glow-neon-purple),
+    0 0 20px var(--glow-neon-purple);
+}
+
+.text-glow-neon-red {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-neon-red),
+    0 0 10px var(--glow-neon-red),
+    0 0 20px var(--glow-neon-red);
+}
+
+.text-glow-fluorescent-red {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-fluorescent-red),
+    0 0 10px var(--glow-fluorescent-red),
+    0 0 20px var(--glow-fluorescent-red);
+}
+
+.text-glow-fluorescent-orange {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-fluorescent-orange),
+    0 0 10px var(--glow-fluorescent-orange),
+    0 0 20px var(--glow-fluorescent-orange);
+}
+
+.text-glow-neon-carrot {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-neon-carrot),
+    0 0 10px var(--glow-neon-carrot),
+    0 0 20px var(--glow-neon-carrot);
+}
+
+.text-glow-neon-yellow {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-neon-yellow),
+    0 0 10px var(--glow-neon-yellow),
+    0 0 20px var(--glow-neon-yellow);
+}
+
+.text-glow-laser-lemon {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-laser-lemon),
+    0 0 10px var(--glow-laser-lemon),
+    0 0 20px var(--glow-laser-lemon);
+}
+
+.text-glow-liquid-neon {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-liquid-neon),
+    0 0 10px var(--glow-liquid-neon),
+    0 0 20px var(--glow-liquid-neon);
+}
+
+.text-glow-electric-lime {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-electric-lime),
+    0 0 10px var(--glow-electric-lime),
+    0 0 20px var(--glow-electric-lime);
+}
+
+.text-glow-electric {
+  color: var(--text-light);
+  text-shadow:
+    0 0 5px var(--glow-electric),
+    0 0 10px var(--glow-electric),
+    0 0 20px var(--glow-electric);
+}
+
+
+/* ========== Hover Glow Text Effects ========== */
+
+.hover-glow-neon-green:hover {
+  text-shadow: 0 0 5px var(--glow-neon-green), 0 0 10px var(--glow-neon-green), 0 0 20px var(--glow-neon-green);
+}
+
+.hover-glow-neon-fuchsia:hover {
+  text-shadow: 0 0 5px var(--glow-neon-fuchsia), 0 0 10px var(--glow-neon-fuchsia), 0 0 20px var(--glow-neon-fuchsia);
+}
+
+.hover-glow-neon-pink:hover {
+  text-shadow: 0 0 5px var(--glow-neon-pink), 0 0 10px var(--glow-neon-pink), 0 0 20px var(--glow-neon-pink);
+}
+
+.hover-glow-neon-cyan:hover {
+  text-shadow: 0 0 5px var(--glow-neon-cyan), 0 0 10px var(--glow-neon-cyan), 0 0 20px var(--glow-neon-cyan);
+}
+
+.hover-glow-neon-blue:hover {
+  text-shadow: 0 0 5px var(--glow-neon-blue), 0 0 10px var(--glow-neon-blue), 0 0 20px var(--glow-neon-blue);
+}
+
+.hover-glow-neon-purple:hover {
+  text-shadow: 0 0 5px var(--glow-neon-purple), 0 0 10px var(--glow-neon-purple), 0 0 20px var(--glow-neon-purple);
+}
+
+.hover-glow-neon-red:hover {
+  text-shadow: 0 0 5px var(--glow-neon-red), 0 0 10px var(--glow-neon-red), 0 0 20px var(--glow-neon-red);
+}
+
+.hover-glow-fluorescent-red:hover {
+  text-shadow: 0 0 5px var(--glow-fluorescent-red), 0 0 10px var(--glow-fluorescent-red), 0 0 20px var(--glow-fluorescent-red);
+}
+
+.hover-glow-fluorescent-orange:hover {
+  text-shadow: 0 0 5px var(--glow-fluorescent-orange), 0 0 10px var(--glow-fluorescent-orange), 0 0 20px var(--glow-fluorescent-orange);
+}
+
+.hover-glow-neon-carrot:hover {
+  text-shadow: 0 0 5px var(--glow-neon-carrot), 0 0 10px var(--glow-neon-carrot), 0 0 20px var(--glow-neon-carrot);
+}
+
+.hover-glow-neon-yellow:hover {
+  text-shadow: 0 0 5px var(--glow-neon-yellow), 0 0 10px var(--glow-neon-yellow), 0 0 20px var(--glow-neon-yellow);
+}
+
+.hover-glow-laser-lemon:hover {
+  text-shadow: 0 0 5px var(--glow-laser-lemon), 0 0 10px var(--glow-laser-lemon), 0 0 20px var(--glow-laser-lemon);
+}
+
+.hover-glow-liquid-neon:hover {
+  text-shadow: 0 0 5px var(--glow-liquid-neon), 0 0 10px var(--glow-liquid-neon), 0 0 20px var(--glow-liquid-neon);
+}
+
+.hover-glow-electric-lime:hover {
+  text-shadow: 0 0 5px var(--glow-electric-lime), 0 0 10px var(--glow-electric-lime), 0 0 20px var(--glow-electric-lime);
+}
+
+.hover-glow-electric:hover {
+  text-shadow: 0 0 5px var(--glow-electric), 0 0 10px var(--glow-electric), 0 0 20px var(--glow-electric);
+}

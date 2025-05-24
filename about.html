@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--  Character Encoding and Compatibility -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  SEO Metadata -->
+    <title>NeonVision Studio | About us</title>
+    <meta name="description"
+        content="NeonVision Studio — a futuristic digital agency specializing in next-gen web design. Built entirely with HTML and CSS, this site showcases expert-level frontend skills.">
+    <meta name="keywords"
+        content="web design, neon, futuristic, HTML CSS only, digital agency, UI design, frontend portfolio">
+    <meta name="author" content="NeonVision Team">
+
+    <!-- 📱 Social Media Preview (Open Graph & Twitter Cards) -->
+    <meta property="og:title" content="NeonVision Studio">
+    <meta property="og:description" content="A cutting-edge digital agency website, built with only HTML and CSS.">
+    <meta property="og:image" content="https://mr-rt95.github.io/neonvision-studio/assets/images/og-preview.png">
+    <meta property="og:url" content="https://mr-rt95.github.io/neonvision-studio/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NeonVision Studio">
+    <meta name="twitter:description"
+        content="A futuristic frontend-only digital agency website built with HTML and CSS.">
+    <meta name="twitter:image" content="https://mr-rt95.github.io/neonvision-studio/assets/images/og-preview.png">
+
+    <!--  Favicon and Touch Icons -->
+    <link rel="icon" href="assets/images/logo-mobile.png" type="image/svg+xml">
+    <link rel="shortcut icon" href="assets/images/logo-mobile.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/images/logo-mobile.png">
+
+    <!--  Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <!--  Stylesheets -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/text-glow.css">
+    <link rel="stylesheet" href="assets/css/pages/home.css">
+</head>
+
+<body>
+
+    <!-- ==================== Site Header ==================== -->
+    <header class="header-site" role="banner" aria-label="Site Header">
+        <div class="header-site__container">
+
+            <!--  Logo: Desktop and Mobile Versions -->
+            <a href="./" class="site-header__logo">
+                <img src="./assets/images/logo-desktop.png" alt="NeonVision Logo" class="logo--desktop">
+                <img src="./assets/images/logo-mobile.png" alt="NeonVision Logo" class="logo--mobile">
+            </a>
+
+            <!--  Mobile Menu Toggle (Hamburger) -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-controls="main-menu" aria-expanded="false">
+            <label for="nav-toggle" class="nav-toggle__label" aria-label="Toggle navigation menu">
+                <span class="nav-toggle__line"></span>
+                <span class="nav-toggle__line"></span>
+                <span class="nav-toggle__line"></span>
+            </label>
+
+            <!--  Main Navigation Menu -->
+            <nav id="main-menu" class="site-nav" role="navigation" aria-label="Main Navigation">
+                <ul class="site-nav__list">
+                    <li class="site-nav__item">
+                        <a href="./" class="site-nav__link hover-glow-neon-pink">Home</a>
+                    </li>
+                    <li class="active-nav__item site-nav__item">
+                        <a href="./about.html" class="site-nav__link hover-glow-neon-green">About</a>
+                    </li>
+                    <li class="site-nav__item">
+                        <a href="./contact.html" class="site-nav__link hover-glow-neon-red">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <!-- /header-site -->
+
+    <!-- ==================== Site Footer ==================== -->
+    <footer class="footer-site" role="contentinfo" aria-label="Site Footer">
+
+        <p style="text-align:center; color: var(--text-light); padding: 20px;">© 2025 NeonVision Studio. All rights
+            reserved.</p>
+    </footer>
+    <!-- /footer-site -->
+
+</body>
+
+</html>

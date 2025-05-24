@@ -1,8 +1,174 @@
 :root {
+
+    /* Background and Theme Colors */
     --color-bg: #0d0d1a;
-    --color-neon-pink: #ff4bcd;
-    --color-neon-blue: #4bf9ff;
-    --color-neon-purple: #9f4bff;
-    --color-glow: rgba(75, 249, 255, 0.5);
+    /* Color bg */
+    --color-bg-secondary: #131324;
+    /* Color bg secondary */
+    --color-bg-glass: rgba(255, 255, 255, 0.05);
+    /* Color bg glass */
+    --color-bg-glass-strong: rgba(255, 255, 255, 0.08);
+    /* Color bg glass strong */
+
+    /* Text Colors */
     --text-light: #f0f0f0;
+    /* Text light */
+    --text-muted: rgba(240, 240, 240, 0.6);
+    /* Text muted */
+    --text-heading: #ffffff;
+    /* Text heading */
+
+    /* Colors */
+
+    /* === Bright Light Colors (near-white, pastel tones) === */
+
+    /* Neutral light colors */
+    --white: rgb(255, 255, 255);
+    /* Pure white */
+    --light-gray: rgb(240, 240, 240);
+    /* Very light gray */
+    --silver: rgb(220, 220, 220);
+    /* Pale silver tone */
+    --mist-white: rgb(245, 245, 250);
+    /* Foggy white with a cool tint */
+
+    /* Warm light colors */
+    --light-yellow: rgb(255, 255, 200);
+    /* Soft yellow */
+    --cream: rgb(255, 253, 208);
+    /* Vanilla cream */
+    --peach: rgb(255, 229, 180);
+    /* Warm peach tone */
+    --ivory: rgb(255, 255, 240);
+    /* Ivory white */
+
+    /* Cool light colors */
+    --icy-blue: rgb(230, 255, 255);
+    /* Almost white with blue tint */
+    --light-blue: rgb(200, 240, 255);
+    /* Pale blue */
+    --mint: rgb(210, 255, 230);
+    /* Fresh mint tone */
+    --lavender-mist: rgb(235, 225, 255);
+    /* Pale lavender, pastel purple */
+
+    /* Bright saturated accent colors */
+    --bright-red: rgb(255, 0, 0);
+    /* True red */
+    --bright-green: rgb(0, 255, 0);
+    /* Bright green */
+    --bright-blue: rgb(0, 0, 255);
+    /* True blue */
+    --bright-yellow: rgb(255, 255, 0);
+    /* Vivid yellow */
+    --bright-cyan: rgb(0, 255, 255);
+    /* Vivid cyan */
+    --bright-magenta: rgb(255, 0, 255);
+    /* Bright magenta */
+
+    --neon-green-rgb: 57, 255, 20;
+    /* Neon green rgb */
+    --glow-neon-green: rgba(57, 255, 20, 0.45);
+    /* Glow neon green */
+    --neon-fuchsia-rgb: 254, 89, 194;
+    /* Neon fuchsia rgb */
+    --glow-neon-fuchsia: rgba(254, 89, 194, 0.45);
+    /* Glow neon fuchsia */
+    --neon-pink-rgb: 254, 1, 154;
+    /* Neon pink rgb */
+    --glow-neon-pink: rgba(254, 1, 154, 0.45);
+    /* Glow neon pink */
+    --neon-cyan-rgb: 4, 217, 255;
+    /* Neon cyan rgb */
+    --glow-neon-cyan: rgba(4, 217, 255, 0.45);
+    /* Glow neon cyan */
+    --neon-blue-rgb: 85, 85, 255;
+    /* Neon blue rgb */
+    --glow-neon-blue: rgba(85, 85, 255, 0.45);
+    /* Glow neon blue */
+    --neon-purple-rgb: 188, 19, 254;
+    /* Neon purple rgb */
+    --glow-neon-purple: rgba(188, 19, 254, 0.45);
+    /* Glow neon purple */
+    --neon-red-rgb: 255, 7, 58;
+    /* Neon red rgb */
+    --glow-neon-red: rgba(255, 7, 58, 0.45);
+    /* Glow neon red */
+    --fluorescent-red-rgb: 248, 0, 0;
+    /* Fluorescent red rgb */
+    --glow-fluorescent-red: rgba(248, 0, 0, 0.45);
+    /* Glow fluorescent red */
+    --fluorescent-orange-rgb: 255, 164, 32;
+    /* Fluorescent orange rgb */
+    --glow-fluorescent-orange: rgba(255, 164, 32, 0.45);
+    /* Glow fluorescent orange */
+    --neon-carrot-rgb: 255, 163, 67;
+    /* Neon carrot rgb */
+    --glow-neon-carrot: rgba(255, 163, 67, 0.45);
+    /* Glow neon carrot */
+    --neon-yellow-rgb: 255, 234, 25;
+    /* Neon yellow rgb */
+    --glow-neon-yellow: rgba(255, 234, 25, 0.45);
+    /* Glow neon yellow */
+    --laser-lemon-rgb: 254, 254, 34;
+    /* Laser lemon rgb */
+    --glow-laser-lemon: rgba(254, 254, 34, 0.45);
+    /* Glow laser lemon */
+    --liquid-neon-rgb: 200, 255, 0;
+    /* Liquid neon rgb */
+    --glow-liquid-neon: rgba(200, 255, 0, 0.45);
+    /* Glow liquid neon */
+    --electric-lime-rgb: 204, 255, 0;
+    /* Electric lime rgb */
+    --glow-electric-lime: rgba(204, 255, 0, 0.45);
+    /* Glow electric lime */
+    --electric-rgb: 125, 249, 255;
+    /* Electric rgb */
+    --glow-electric: rgba(125, 249, 255, 0.45);
+    /* Glow electric */
+
+    --radius-lg: 24px;
+    /* Radius lg */
+    --transition-fast: 0.2s ease-in-out;
+    /* Transition fast */
+
+    /* Borders */
+    --border-neon: 1px solid var(--glow-cyan);
+    /* Border neon */
+    --border-light: 1px solid rgba(255, 255, 255, 0.1);
+    /* Border light */
+
+    /* Border Radii */
+    --radius-sm: 6px;
+    /* Radius sm */
+    --radius-md: 12px;
+    /* Radius md */
+    --radius-lg: 24px;
+    /* Radius lg */
+
+    /* Shadows */
+    --shadow-neon: 0 0 12px var(--glow-cyan);
+    /* Shadow neon */
+    --shadow-glow: 0 0 20px var(--glow-pink), 0 0 40px var(--glow-pink);
+    /* Shadow glow */
+
+    /* Responsive Breakpoints */
+    --breakpoint-xs: 480px;
+    /* Breakpoint xs */
+    --breakpoint-sm: 768px;
+    /* Breakpoint sm */
+    --breakpoint-md: 1024px;
+    /* Breakpoint md */
+    --breakpoint-lg: 1280px;
+    /* Breakpoint lg */
+    --breakpoint-xl: 1600px;
+    /* Breakpoint xl */
+
+    /* Transitions */
+    --transition-fast: 0.2s ease-in-out;
+    /* Transition fast */
+    --transition-normal: 0.4s ease;
+    /* Transition normal */
+    --transition-slow: 0.7s ease;
+    /* Transition slow */
 }

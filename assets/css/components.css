@@ -1,0 +1,285 @@
+/* ==================================================
+  Neon Glass Card Effects
+  Author: mr-rt95
+  Description: Utility classes for glowing glassmorphism-style blocks
+   ================================================== */
+
+/* ========== Green Shades ========== */
+
+.glass-neon-green {
+  background: rgba(var(--neon-green-rgb), 0.12);
+  border: 1px solid rgba(var(--neon-green-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-neon-green), 0 0 60px var(--glow-neon-green);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-neon-green:hover {
+  transform: scale(1.05);
+}
+
+.glass-electric-lime {
+  background: rgba(var(--electric-lime-rgb), 0.12);
+  border: 1px solid rgba(var(--electric-lime-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-electric-lime), 0 0 60px var(--glow-electric-lime);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-electric-lime:hover {
+  transform: scale(1.05);
+}
+
+
+/* ========== Pink, Fuchsia, Red Shades ========== */
+
+.glass-neon-pink {
+  background: rgba(var(--neon-pink-rgb), 0.12);
+  border: 1px solid rgba(var(--neon-pink-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-neon-pink), 0 0 60px var(--glow-neon-pink);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-neon-pink:hover {
+  transform: scale(1.05);
+}
+
+.glass-neon-fuchsia {
+  background: rgba(var(--neon-fuchsia-rgb), 0.12);
+  border: 1px solid rgba(var(--neon-fuchsia-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-neon-fuchsia), 0 0 60px var(--glow-neon-fuchsia);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-neon-fuchsia:hover {
+  transform: scale(1.05);
+}
+
+.glass-neon-red {
+  background: rgba(var(--neon-red-rgb), 0.12);
+  border: 1px solid rgba(var(--neon-red-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-neon-red), 0 0 60px var(--glow-neon-red);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-neon-red:hover {
+  transform: scale(1.05);
+}
+
+.glass-fluorescent-red {
+  background: rgba(var(--fluorescent-red-rgb), 0.12);
+  border: 1px solid rgba(var(--fluorescent-red-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-fluorescent-red), 0 0 60px var(--glow-fluorescent-red);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-fluorescent-red:hover {
+  transform: scale(1.05);
+}
+
+
+/* ========== Orange, Yellow Tones ========== */
+
+.glass-fluorescent-orange {
+  background: rgba(var(--fluorescent-orange-rgb), 0.12);
+  border: 1px solid rgba(var(--fluorescent-orange-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-fluorescent-orange), 0 0 60px var(--glow-fluorescent-orange);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-fluorescent-orange:hover {
+  transform: scale(1.05);
+}
+
+.glass-neon-carrot {
+  background: rgba(var(--neon-carrot-rgb), 0.12);
+  border: 1px solid rgba(var(--neon-carrot-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-neon-carrot), 0 0 60px var(--glow-neon-carrot);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-neon-carrot:hover {
+  transform: scale(1.05);
+}
+
+.glass-neon-yellow {
+  background: rgba(var(--neon-yellow-rgb), 0.12);
+  border: 1px solid rgba(var(--neon-yellow-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-neon-yellow), 0 0 60px var(--glow-neon-yellow);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-neon-yellow:hover {
+  transform: scale(1.05);
+}
+
+.glass-laser-lemon {
+  background: rgba(var(--laser-lemon-rgb), 0.12);
+  border: 1px solid rgba(var(--laser-lemon-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-laser-lemon), 0 0 60px var(--glow-laser-lemon);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-laser-lemon:hover {
+  transform: scale(1.05);
+}
+
+
+/* ========== Blue, Cyan, Purple ========== */
+
+.glass-neon-cyan {
+  background: rgba(var(--neon-cyan-rgb), 0.12);
+  border: 1px solid rgba(var(--neon-cyan-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-neon-cyan), 0 0 60px var(--glow-neon-cyan);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-neon-cyan:hover {
+  transform: scale(1.05);
+}
+
+.glass-neon-blue {
+  background: rgba(var(--neon-blue-rgb), 0.12);
+  border: 1px solid rgba(var(--neon-blue-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-neon-blue), 0 0 60px var(--glow-neon-blue);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-neon-blue:hover {
+  transform: scale(1.05);
+}
+
+.glass-neon-purple {
+  background: rgba(var(--neon-purple-rgb), 0.12);
+  border: 1px solid rgba(var(--neon-purple-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-neon-purple), 0 0 60px var(--glow-neon-purple);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-neon-purple:hover {
+  transform: scale(1.05);
+}
+
+
+/* ========== Electric Base ========== */
+
+.glass-electric {
+  background: rgba(var(--electric-rgb), 0.12);
+  border: 1px solid rgba(var(--electric-rgb), 0.3);
+  box-shadow: 0 0 20px var(--glow-electric), 0 0 60px var(--glow-electric);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  color: var(--text-light);
+  font-weight: bold;
+  text-align: center;
+  max-width: 300px;
+  transition: transform var(--transition-fast);
+}
+
+.glass-electric:hover {
+  transform: scale(1.05);
+}
