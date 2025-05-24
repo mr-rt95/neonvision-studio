@@ -6,6 +6,10 @@ body {
     color: var(--text-light);
 }
 
+section {
+    margin-block: 100px;
+}
+
 .logo--desktop,
 .logo--mobile {
     max-height: 50px;
@@ -207,12 +211,12 @@ body {
     .header-site__container {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 100%;
         padding: 20px;
         border-radius: 18px;
         background: rgba(var(--neon-cyan-rgb), 0.12);
-        border: 1px solid rgba(var(--neon-cyan-rgb), 0.3);
+        border: 1px solid var(--bright-cyan);
         box-shadow: 0 0 20px var(--glow-neon-cyan), 0 0 60px var(--glow-neon-cyan);
     }
 

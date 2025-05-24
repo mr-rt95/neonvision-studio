@@ -113,3 +113,14 @@
     font-style: normal;
     font-display: swap;
 }
+
+
+a {
+    font-family: "Rajdhani";
+    font-size: 20px;
+    font-weight: 800;
+}
+
+p {
+    font-family: "Rajdhani";
+}
